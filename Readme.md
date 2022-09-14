@@ -23,4 +23,4 @@
 
 ![Project Screenshot](https://img.shields.io/badge/LiveClass-Project--10-darkblue)
 
-![LCO](./Interior-Design-Landing-Page.png)
+![LCO](/Interior-Design-Landing-Page.png)
