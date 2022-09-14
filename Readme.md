@@ -8,7 +8,7 @@
 
 ---
 
-**The project took almost 24 hrs to complete.**
+**The project took almost 10 hrs to complete.**
 
 **What I learned in this project :**
 
