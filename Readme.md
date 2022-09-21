@@ -1,6 +1,6 @@
 # Project-10
 
-[Live Link](https://atul-ineuron-project.netlify.app/ "Netlify")
+[Live Link](https://ineuron-live-classs-project-10.netlify.app/"Netlify")
 
 **Project is responsive**
 
