@@ -1,6 +1,6 @@
 # Project-10
 
-[Live Link](https://atul-ineuron-project.netlify.app/ "Netlify")
+[Live Link](https://ineuron-live-classs-project-10.netlify.app/)
 
 **Project is responsive**
 
@@ -8,7 +8,7 @@
 
 ---
 
-**The project took almost 24 hrs to complete.**
+**The project took almost 10 hrs to complete.**
 
 **What I learned in this project :**
 
