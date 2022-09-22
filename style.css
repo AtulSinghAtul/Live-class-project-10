@@ -15,6 +15,9 @@ html,
 body {
   width: 100%;
   height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
   background-image: url("image/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,14 +137,11 @@ button {
 .right-content {
   display: flex;
   flex-direction: column;
-  /* row-gap: 50px; */
+
   width: 100%;
   height: 100%;
 
   position: relative;
-  /* top: 20%;
-  left: 70%;
-  transform: translate(-50%, -50%); */
 }
 
 .content {
@@ -163,11 +163,8 @@ button {
 }
 
 .content-2 {
-  /* position: absolute; */
-  /* margin-top: 100px;
-  margin-left: -350px; */
   background-color: var(--light-blue);
-  /* margin-right: 100px; */
+
   position: relative;
   top: 50%;
   left: 50%;
@@ -216,13 +213,15 @@ button {
   left: 50%;
   transform: translate(-140%, 1650%);
 }
+
 .point-2 {
   background-color: #fff;
   position: absolute;
-  top: 42%;
+  top: 47%;
   left: 50%;
-  transform: translate(-250%, 1158%);
+  transform: translate(-250%, 1150%);
 }
+
 /* ***********MEDIA QUERY************** */
 @media screen and (max-width: 2767px) {
   html,
@@ -241,20 +240,14 @@ button {
     position: relative;
     top: 40%;
     left: 50%;
-    /* transform: translate(-105%, -110%); */
-    /* z-index: 999; */
   }
   .left-heading {
     font-size: 90px;
   }
   button {
-    /* background-color: transparent;
-    border: 2px solid var(--white); */
     border-radius: 50px;
     padding: 30px 60px;
-    /* color: var(--white);
-    margin-left: 15%;
-    text-transform: uppercase; */
+
     font-size: 28px;
     font-weight: 700;
   }
@@ -271,9 +264,15 @@ button {
     transform: translate(-140%, 1650%);
   }
   .point-2 {
+    position: relative;
+    top: 19.5%;
+    left: 50%;
+  }
+
+  .point-2 {
     background-color: #fff;
     position: absolute;
-    top: 47.2%;
+    top: 45.5%;
     left: 50%;
     transform: translate(-250%, 1158%);
   }
@@ -292,7 +291,7 @@ button {
   .point-2 {
     background-color: #fff;
     position: absolute;
-    top: 38.7%;
+    top: 36.5%;
     left: 49%;
     transform: translate(-250%, 1158%);
   }
@@ -303,7 +302,6 @@ button {
     top: 10%;
     left: 20%;
     transform: translate(-50%, -50%);
-    /* z-index: 999; */
   }
   .point-2 {
     background-color: #fff;
@@ -489,7 +487,6 @@ button {
     position: relative;
     top: 80%;
     left: 130%;
-    /* transform: translate(-50%, -50%); */
   }
   .border-1,
   .border-2 {
@@ -510,7 +507,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* width: 100%; */
+
     height: 80%;
     margin: 50px;
     padding: 0;
@@ -555,8 +552,6 @@ button {
   .border-bottom {
     flex-direction: column;
     justify-content: center;
-
-    /* width: 100%; */
   }
   .content {
     width: 60%;
@@ -569,7 +564,6 @@ button {
     position: relative;
     top: 80%;
     left: 130%;
-    /* transform: translate(-50%, -50%); */
   }
   .border-1,
   .border-2 {
